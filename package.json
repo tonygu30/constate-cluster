@@ -1,0 +1,28 @@
+{
+  "name": "constate-cluster",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "NODE_ENV=production webpack",
+    "build": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonygu30/constate-cluster.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonygu30/constate-cluster/issues"
+  },
+  "homepage": "https://github.com/tonygu30/constate-cluster#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "constate": "^3.2.0",
+    "react": "^17.0.2"
+  }
+}
